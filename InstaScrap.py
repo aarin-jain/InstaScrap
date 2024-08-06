@@ -9,7 +9,7 @@ from google.oauth2.service_account import Credentials
 
 loader = instaloader.Instaloader()
 print(loader)
-loader.login('natashajain2002@gmail.com', 'Aarin@002')
+loader.login("USER NAME", "PASSWORD)
 profile = instaloader.Profile.from_username(loader.context,
                                             'gt2028class')
 
